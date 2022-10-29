@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(/Assets/kamionat.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    color: white;
+}
+*{
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 75px;
+    color: white;
+    background-color:#333333;
+}
+header .ndryshim{
+    background-color: rgba(0,0,0,0.8);
+    height: 50px;
+}
+header .top-header{
+display: flex;
+justify-content: space-between;
+height: 25px;
+color: white;
+}
+header .top-header i{
+    color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    position: st;
+
+}
+header a{
+ color: white;
+ text-decoration: none;
+ padding:16px 17px 17px 17px;
+
+}
+.logo{
+    align-self: center;
+padding-top: 5px;
+}
+header i{
+    color: rgb(19, 17, 17);
+}
+header .header {
+    height: 50px;
+}
+header .contact,
+header .lang a {
+    font-size: 12px;
+    border: 2px  white;
+    border-spacing: 5px;
+    padding: 1px;
+    border-radius: 10%;
+    font-size: 15px;
+}
+header .lang{
+    margin-right: 10px;
+}
+header  a:hover{
+    background-color: rgb(238, 14, 14);
+    color: rgb(247, 241, 241);
+    transition: 1s 0.2s;
+    cursor: pointer;
+}
+header nav ul {
+   list-style-type: none;
+   display: flex;
+   gap: 50px;
+}
+main{
+    height: calc(100vh-75px);
+    display: flex;
+    align-items: center;
+}
+main .container {
+    height: 400px;
+    display:flex;
+   align-items: center;
+  justify-content: center;
+   font-size: 25px;
+   font-weight: 700;
+   font-family:sans-serif;
+   text-align: center;
+   color: white;
+   animation: text 5s infinite;
+}
+main .dnsa{
+    font-size: 70px;
+    color: red;
+}
+section#ikonat {
+    margin-top: 5px;
+    align-items: top;
+    justify-content: center;
+ 
+display: grid;
+height: 200px;
+}
+section#ikonat  img{
+width: 150px;
+}
+section#ikonat .zgjedh{
+    display: flex;
+    align-items:center;
+    position: static;
+    gap: 25px;
+    justify-content: center;
+    padding-left: 10px;
+}
+.buton{
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    animation: butoni 2s 2 ;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50px;
+}
+@keyframes butoni{
+    0%{
+        color: white;
+    }
+    50%{
+        letter-spacing: 2px;
+    }
+    100%{
+        letter-spacing: 2px;
+        color: red;
+    }
+}
+@keyframes text{
+    0% {
+    color:black;
+   
+    }
+    30%{
+        letter-spacing: 1px;
+       
+    }
+    100%{
+        letter-spacing: 3px;
+     
+    }
+}
+section#trucks{
+    display: block;
+    width:100%;
+    background-color: #333333;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    height: 200px;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+section#trucks .categories{
+    text-align: center;
+}
+section#trucks h1{
+    font-size: 40px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+section#trucks h2{
+    text-shadow: 1px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+section#trucks h3{
+    text-shadow: 1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+section#trucks h3 .dp{
+ font-size: 25px;
+ padding-bottom: 10px;
+}
+section#contact {
+   background-color: #333333;
+   margin-bottom: 10px;
+   border-top: 1px solid red;
+   height: auto;
+   background-size: contain;
+}
+section#contact iframe{
+    width: 100%;
+    height: 280px;
+    padding-top: 10px;
+}
+section#contact h2{
+    color: rgb(219, 18, 18);
+ padding-top: 10px;
+ border-left: 10px;
+ text-transform: uppercase;
+
+
+}
+footer{
+   padding: 0px 0px;
+   background-color: aliceblue;
+   border-top: 1px solid greenyellow;
+   color:black;
+   height: 250px;
+   align-content: flex-start;
+   margin-top: 50px;
+   justify-content: center;
+}
+footer .footer-top img{
+    padding: 5px 5px;
+}
+footer .footer-top address{
+    padding: 5px 5px;
+}
+footer .footer-top .space-10{
+    padding: 5px;
+    display:flex;
+}
+footer .footer-top .text-bold{
+    display:block;
+    padding-bottom: 5px;
+}
+footer ul li{
+    background-color: #333333;
+    border-radius: 50%;
+    color: white;
+    list-style-type: none;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px;
+    line-height: 20px;
+}
+footer .bottom-footer p{
+    margin-top: 10px;
+}
+footer .social-media ul li  {
+    display:inline-block ;
+}
